@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+}
+
+#calculator {
+    border: 5px solid blue;
+    background-color: white;
+    padding: 50px;
+    width:500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select{
+    width: 100%;  
+}
+
+#t {
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}

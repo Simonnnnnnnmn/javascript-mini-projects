@@ -1,0 +1,23 @@
+#countBtn {
+    display:block;
+    font-size: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#btns {
+    text-align: center;
+}
+
+.bt {
+    font-size: 5em;
+    padding: 50px;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+.bt:hover {
+    background-color:blue;
+}
