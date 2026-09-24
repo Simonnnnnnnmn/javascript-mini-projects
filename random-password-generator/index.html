@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="app.js" defer></script>
+
+
+</head>
+<body>
+    <form>
+        <h1>Random Password Generator</h1>
+        <div id="body">
+        <div class="input">
+        <label for="length">Password Length: </label>
+        <input type="number" min="1" value="9" id="length">
+        </div>
+
+        <div class="radioBtns">
+        <input type="checkbox" id="lower">
+        <label for="lower">Include Lower Case Letters</label>
+        </div>
+
+        <div class="radioBtns">
+        <input type="checkbox" id="upper">
+        <label for="upper">Include Upper Case Letters</label>
+        </div>
+
+        <div class="radioBtns">
+        <input type="checkbox" id="numbers">
+        <label for="numbers">Include Numbers</label>
+        </div>
+
+        <div class="radioBtns">
+        <input type="checkbox" id="symbol">
+        <label for="symbol">Include Symbols</label>
+        </div>
+        </div>
+
+        <button type="button" id="submitBtn" onclick="generatePassword()">Submit</button>
+
+
+        <div class="result">
+        <input type="text" id="password" readonly>
+        <button type="button" aria-label="Copy Password" onclick="copyPassword()">
+            <i data-lucide="copy"></i>
+        </button>
+        </div>
+        
+
+    </form>
+
+    
+</body>
+</html>
