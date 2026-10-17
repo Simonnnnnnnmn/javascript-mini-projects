@@ -1,0 +1,70 @@
+body {
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 50%, 0.147);
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 30vh;
+
+}
+
+#time {
+    color: white;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btns button {
+    font-size: 2em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    min-width: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startBtn {
+    background-color: rgb(2, 255, 2);
+}
+
+#startBtn:hover {
+    background-color: rgb(2, 201, 2);
+}
+
+#stopBtn {
+    background-color: red;
+}
+
+#stopBtn:hover {
+    background-color: rgb(215, 2, 2);
+}
+
+#resetBtn {
+    background-color: rgb(251, 255, 3);
+}
+
+#resetBtn:hover {
+    background-color: rgb(224, 221, 0);
+}
+
+
+
+
