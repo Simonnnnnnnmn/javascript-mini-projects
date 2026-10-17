@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#clockContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    backdrop-filter: blur(3px);
+    text-align: center;
+}
