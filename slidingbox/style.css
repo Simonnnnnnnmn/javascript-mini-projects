@@ -1,0 +1,15 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+body {
+    margin: 0;
+}
+
