@@ -1,0 +1,34 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#choices button {
+    margin-bottom:  10px;
+    font-size: 3em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.win, #playerPoints {
+    color: green;
+}
+
+.lose, #computerPoints {
+    color: red;
+}

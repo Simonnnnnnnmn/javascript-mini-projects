@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="game">
+        <h1>Rock Paper Scissors Game</h1>
+        <div id="choices">
+            <button id="rock" onclick="playGame('rock')">ROCK</button>
+            <button id="paper" onclick="playGame('paper')">PAPER</button>
+            <button id="scissors" onclick="playGame('scissors')">SCISSORS</button>
+        </div>
+
+        <div id="playerChoicesDisplay">Player: </div>
+        <div id="computerChoicesDisplay">Computer: </div>
+        <div id="result">Result: </div>
+        <div id="playerPoints">Player Points: 0</div>
+        <div id="computerPoints">Computer Points: 0</div>
+    </div>
+</body>
+</html>
